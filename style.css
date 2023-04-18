@@ -1,42 +1,45 @@
 *{
     margin:0px;
-    padding: 0px;
+    padding:0px;
 }
 
 .cabecalho{
-background-color: #FFF2CC;
-color: black;
-display:flex;
-font-size: 24px;
-justify-content: space-around;
+    background-color: #FFF2CC;
+    color: black;
+    display: flex;   
+    font-size:24px;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.logo{
+    width:321px;
+    height: 157px;
+    
 }
 
 .lista{
+    display: inline-block;
     list-style-type: none;
+    
 }
 
-.imagemcabecalho{
-    width:321px;
-    height: 157px;
-}
-
-.texto{
-    background-image: linear-gradient(red,yellow,blue,green);
-    padding:150px;
+.amarela{
+    background-color: #FFD966;
+    padding: 150px 100px;
     display:flex;
 }
 
-.paragrafo{
-    display: inline-block;
-    font-size: larger;
-}
-
-.titulo-sessao{
-    align-content: center;
+.tituloamarelo{
     font-size: 50px;
 }
 
-.imagemlivro{
-    width: 70%;
-    height: 70%;
+.paragrafos{
+    display: inline-block;
+    font-size:30px;
+}
+
+.imagemamarelo{
+    width: 350px;
+    height: 250px;
 }
